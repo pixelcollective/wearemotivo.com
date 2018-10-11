@@ -1,0 +1,7 @@
+motivo.tinypixel.io ansible_host=104.248.62.7
+
+[staging]
+motivo.tinypixel.io
+
+[web]
+motivo.tinypixel.io
