@@ -5,9 +5,9 @@
 wordpress_sites:
   motivo.com:
     site_hosts:
-      - canonical: motivo.com
+      - canonical: wearemotivo.com
         redirects:
-          - www.motivo.com
+          - www.wearemotivo.com
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:pixelcollective/motivo.com.git # replace with your Git repo URL
     repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
@@ -15,7 +15,7 @@ wordpress_sites:
     multisite:
       enabled: false
     ssl:
-      enabled: false
+      enabled: true
       provider: letsencrypt
     cache:
-      enabled: false
+      enabled: true

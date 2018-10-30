@@ -17,7 +17,13 @@
     }
   ],
   "keywords": [
-    "bedrock", "roots", "wordpress", "stack", "composer", "vagrant", "wp"
+    "bedrock",
+    "roots",
+    "wordpress",
+    "stack",
+    "composer",
+    "vagrant",
+    "wp"
   ],
   "support": {
     "issues": "https://github.com/roots/bedrock/issues",
@@ -39,7 +45,22 @@
     "johnpbloch/wordpress": "4.9.8",
     "oscarotero/env": "^1.1.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "roots/wp-config": "1.0.0"
+    "roots/wp-config": "1.0.0",
+    "roots/soil": ">1",
+    "wpackagist-plugin/leadin": "7.0.0",
+    "wpackagist-plugin/elementor": "2.2.5",
+    "wpackagist-plugin/cdn-enabler": ">=1",
+    "wpackagist-plugin/autodescription": ">=3",
+    "wpackagist-plugin/duplicate-post": ">=3",
+    "wpackagist-plugin/dropit": ">=1",
+    "wpackagist-plugin/gutenberg": ">=3",
+    "wpackagist-plugin/imagify": ">=1",
+    "wpackagist-plugin/redirection": ">=3",
+    "wpackagist-plugin/simple-local-avatars": ">=2",
+    "wpackagist-plugin/translatepress-multilingual": ">=1",
+    "wpackagist-plugin/wp-dobby": ">=1",
+    "wpackagist-plugin/wp-html-mail": ">=2",
+    "aaemnnosttv/wp-cli-login-server": ">=1"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2",
@@ -47,9 +68,15 @@
   },
   "extra": {
     "installer-paths": {
-      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
-      "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
-      "web/app/themes/{$name}/": ["type:wordpress-theme"]
+      "web/app/mu-plugins/{$name}/": [
+        "type:wordpress-muplugin"
+      ],
+      "web/app/plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ],
+      "web/app/themes/{$name}/": [
+        "type:wordpress-theme"
+      ]
     },
     "wordpress-install-dir": "web/wp"
   },
