@@ -9,7 +9,7 @@ jobs:
     environment:
       host_key_checking: false
       SITE_ENV: staging
-      SITE_KEY: wearemotivo.com
+      SITE_KEY: motivo.com
     steps:
       - checkout
       - add_ssh_keys:
@@ -34,7 +34,7 @@ jobs:
     environment:
       ANSIBLE_HOST_KEY_CHECKING: false
       SITE_ENV: production
-      SITE_KEY: wearemotivo.com
+      SITE_KEY: motivo.com
     steps:
       - checkout
       - add_ssh_keys:
