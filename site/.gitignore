@@ -22,3 +22,4 @@ web/.htaccess
 /vendor
 
 web/app/themes/motivo.com/.cache-loader
+web/app/themes/motivo.com/node_modules
