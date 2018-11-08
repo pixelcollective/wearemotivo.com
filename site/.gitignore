@@ -20,3 +20,5 @@ web/.htaccess
 
 # Composer
 /vendor
+
+web/app/themes/motivo.com/.cache-loader
