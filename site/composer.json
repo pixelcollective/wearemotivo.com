@@ -59,7 +59,9 @@
     "wpackagist-plugin/simple-local-avatars": ">=2",
     "wpackagist-plugin/translatepress-multilingual": ">=1",
     "wpackagist-plugin/wp-dobby": ">=1",
-    "wpackagist-plugin/wp-html-mail": ">=2"
+    "wpackagist-plugin/wp-html-mail": ">=2",
+    "wpackagist-plugin/google-analytics-for-wordpress": ">=7.3",
+    "wpackagist-plugin/updraftplus": ">=1"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2",
